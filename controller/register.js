@@ -1,5 +1,5 @@
 import userSchema from "../model/user.js";
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcrypt';
 const register =async(req,res)=>{
     try{
         const{name, email,password}=req.body;
